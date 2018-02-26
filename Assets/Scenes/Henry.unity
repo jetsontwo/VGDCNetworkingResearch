@@ -316,43 +316,53 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4744279209387382, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
+    - target: {fileID: 4044843517351324, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4744279209387382, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
+    - target: {fileID: 4044843517351324, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4744279209387382, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
+    - target: {fileID: 4044843517351324, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4744279209387382, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
+    - target: {fileID: 4044843517351324, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4744279209387382, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
+    - target: {fileID: 4044843517351324, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4744279209387382, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
+    - target: {fileID: 4044843517351324, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4744279209387382, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
+    - target: {fileID: 4044843517351324, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4744279209387382, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
+    - target: {fileID: 4044843517351324, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114859938460922170, guid: e3e2c3febd3378f479048002e99aef26,
+    - target: {fileID: 114492135990124256, guid: e3e2c3febd3378f479048002e99aef26,
         type: 2}
       propertyPath: ClickedCount
       value: 
       objectReference: {fileID: 1423067853}
+    - target: {fileID: 114515378105661274, guid: e3e2c3febd3378f479048002e99aef26,
+        type: 2}
+      propertyPath: viewIdField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114515378105661274, guid: e3e2c3febd3378f479048002e99aef26,
+        type: 2}
+      propertyPath: instantiationId
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e3e2c3febd3378f479048002e99aef26, type: 2}
   m_IsPrefabParent: 0
@@ -474,40 +484,9 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 550694564}
---- !u!1 &654693420 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1254645499107648, guid: e3e2c3febd3378f479048002e99aef26,
-    type: 2}
-  m_PrefabInternal: {fileID: 144670108}
---- !u!114 &654693421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 654693420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ownerId: 0
-  group: 0
-  OwnerShipWasTransfered: 0
-  prefixBackup: -1
-  synchronization: 3
-  onSerializeTransformOption: 3
-  onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
-  ObservedComponents:
-  - {fileID: 654693422}
-  ObservedComponentsFoldoutOpen: 1
-  viewIdField: 1
-  instantiationId: 1
-  currentMasterID: -1
-  isRuntimeInstantiated: 0
 --- !u!114 &654693422 stripped
 MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114859938460922170, guid: e3e2c3febd3378f479048002e99aef26,
+  m_PrefabParentObject: {fileID: 114492135990124256, guid: e3e2c3febd3378f479048002e99aef26,
     type: 2}
   m_PrefabInternal: {fileID: 144670108}
   m_Script: {fileID: 11500000, guid: 1b057b286c370394daa4e80d63bc4ced, type: 3}
@@ -679,7 +658,6 @@ GameObject:
   - component: {fileID: 1423067852}
   - component: {fileID: 1423067854}
   - component: {fileID: 1423067853}
-  - component: {fileID: 1423067855}
   m_Layer: 5
   m_Name: Count Text
   m_TagString: Untagged
@@ -700,10 +678,10 @@ RectTransform:
   m_Father: {fileID: 835695190}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.37427706, y: 0.56586367}
-  m_AnchorMax: {x: 0.62644243, y: 0.74945456}
-  m_AnchoredPosition: {x: -0.422, y: -1.9499512}
-  m_SizeDelta: {x: -0.099998474, y: -3.8999996}
+  m_AnchorMin: {x: 0.4222788, y: 0.69440913}
+  m_AnchorMax: {x: 0.57732743, y: 0.87600005}
+  m_AnchoredPosition: {x: 0.5, y: 2}
+  m_SizeDelta: {x: 0.5, y: 1.9000244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1423067853
 MonoBehaviour:
@@ -726,9 +704,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 68
+    m_FontSize: 32
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 68
     m_Alignment: 4
@@ -744,32 +722,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1423067851}
---- !u!114 &1423067855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1423067851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ownerId: 0
-  group: 0
-  OwnerShipWasTransfered: 0
-  prefixBackup: -1
-  synchronization: 3
-  onSerializeTransformOption: 3
-  onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
-  ObservedComponents:
-  - {fileID: 1423067853}
-  ObservedComponentsFoldoutOpen: 1
-  viewIdField: 2
-  instantiationId: 2
-  currentMasterID: -1
-  isRuntimeInstantiated: 0
 --- !u!1 &1511961662
 GameObject:
   m_ObjectHideFlags: 0
