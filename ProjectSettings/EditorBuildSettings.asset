@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Jack/Lobby.unity
+    guid: 4ece626842392884ba0dc535aa6696cb
+  - enabled: 1
+    path: Assets/Scenes/Jack/Room.unity
+    guid: f94b34f951643e445903dd62388652cc
